@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E217835DEB99E79C16AF96D /* Pods_TuChannel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5760F93A23068FB94E1B8159 /* Pods_TuChannel_Tests.framework */; };
+		26C3FA76109A778030476C4B /* libPods-TuChannel_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA7FEFCB34403602ECDD19C /* libPods-TuChannel_Example.a */; };
+		439291912A9F9E3A0064E9D1 /* channel.json in Resources */ = {isa = PBXBuildFile; fileRef = 439291902A9F9E3A0064E9D1 /* channel.json */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B052D970E9944F888DF50DD0 /* Pods_TuChannel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0687097B7AEA7DFDBF6C93 /* Pods_TuChannel_Example.framework */; };
+		6770FD7FBCB6A261A602EED1 /* libPods-TuChannel_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CACA13FBDC2632709870C02 /* libPods-TuChannel_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		0044D63B345F134ACAB5DFC9 /* Pods-TuChannel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuChannel_Example.debug.xcconfig"; path = "Target Support Files/Pods-TuChannel_Example/Pods-TuChannel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		439291902A9F9E3A0064E9D1 /* channel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = channel.json; sourceTree = "<group>"; };
+		4CACA13FBDC2632709870C02 /* libPods-TuChannel_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuChannel_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		550F366564FF0EC74C0CAADF /* Pods-TuChannel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuChannel_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TuChannel_Tests/Pods-TuChannel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5760F93A23068FB94E1B8159 /* Pods_TuChannel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuChannel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TuChannel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuChannel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +44,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60A5E3E89A4CF46F1EC9171B /* Pods-TuChannel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuChannel_Example.release.xcconfig"; path = "Target Support Files/Pods-TuChannel_Example/Pods-TuChannel_Example.release.xcconfig"; sourceTree = "<group>"; };
-		931E6C10972DE7E7DBF3D380 /* TuChannel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TuChannel.podspec; path = ../TuChannel.podspec; sourceTree = "<group>"; };
-		9D0687097B7AEA7DFDBF6C93 /* Pods_TuChannel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuChannel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E16DC9FCB17823C3465E8F81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6CA7FEFCB34403602ECDD19C /* libPods-TuChannel_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TuChannel_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931E6C10972DE7E7DBF3D380 /* TuChannel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TuChannel.podspec; path = ../TuChannel.podspec; sourceTree = "<group>"; };
+		E16DC9FCB17823C3465E8F81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EF8D2EE97393C08C33D6C4AB /* Pods-TuChannel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuChannel_Tests.release.xcconfig"; path = "Target Support Files/Pods-TuChannel_Tests/Pods-TuChannel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F26689CBF6063E5EC3618E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F26689CBF6063E5EC3618E17 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B052D970E9944F888DF50DD0 /* Pods_TuChannel_Example.framework in Frameworks */,
+				26C3FA76109A778030476C4B /* libPods-TuChannel_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E217835DEB99E79C16AF96D /* Pods_TuChannel_Tests.framework in Frameworks */,
+				6770FD7FBCB6A261A602EED1 /* libPods-TuChannel_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +79,6 @@
 				550F366564FF0EC74C0CAADF /* Pods-TuChannel_Tests.debug.xcconfig */,
 				EF8D2EE97393C08C33D6C4AB /* Pods-TuChannel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,6 +106,7 @@
 		607FACD21AFB9204008FA782 /* Example for TuChannel */ = {
 			isa = PBXGroup;
 			children = (
+				439291902A9F9E3A0064E9D1 /* channel.json */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -154,8 +156,8 @@
 		A9983EFFFBAF0C6BDF5A1457 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D0687097B7AEA7DFDBF6C93 /* Pods_TuChannel_Example.framework */,
-				5760F93A23068FB94E1B8159 /* Pods_TuChannel_Tests.framework */,
+				6CA7FEFCB34403602ECDD19C /* libPods-TuChannel_Example.a */,
+				4CACA13FBDC2632709870C02 /* libPods-TuChannel_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,7 +173,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D742B0879F2968D4B4E5A331 /* [CP] Embed Pods Frameworks */,
+				CE32ADFFDAC645A4CE9E7C0F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				439291912A9F9E3A0064E9D1 /* channel.json in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -306,22 +310,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D742B0879F2968D4B4E5A331 /* [CP] Embed Pods Frameworks */ = {
+		CE32ADFFDAC645A4CE9E7C0F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TuChannel_Example/Pods-TuChannel_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TuChannel/TuChannel.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TuChannel_Example/Pods-TuChannel_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TuChannel/TuChannel.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TuChannel.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TuChannel.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuChannel_Example/Pods-TuChannel_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuChannel_Example/Pods-TuChannel_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -479,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TuChannel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TuChannel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +522,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +541,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

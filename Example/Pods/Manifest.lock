@@ -1,0 +1,27 @@
+PODS:
+  - HandyJSON (5.0.2)
+  - SnapKit (5.6.0)
+  - TuChannel (0.1.0):
+    - HandyJSON
+    - SnapKit
+
+DEPENDENCIES:
+  - TuChannel (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HandyJSON
+    - SnapKit
+
+EXTERNAL SOURCES:
+  TuChannel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  TuChannel: cb56ea750b34979bf717e1de98319341639f48e3
+
+PODFILE CHECKSUM: 5a6870ff018bf6eee47f1b62c47754847eba6085
+
+COCOAPODS: 1.12.1

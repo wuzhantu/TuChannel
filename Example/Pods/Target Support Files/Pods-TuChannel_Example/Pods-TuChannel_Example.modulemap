@@ -1,0 +1,6 @@
+module Pods_TuChannel_Example {
+  umbrella header "Pods-TuChannel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
