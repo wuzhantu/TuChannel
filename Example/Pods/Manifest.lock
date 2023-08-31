@@ -1,7 +1,7 @@
 PODS:
   - HandyJSON (5.0.2)
   - SnapKit (5.6.0)
-  - TuChannel (0.1.0):
+  - TuChannel (0.1.1):
     - HandyJSON
     - SnapKit
 
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  TuChannel: cb56ea750b34979bf717e1de98319341639f48e3
+  TuChannel: 625e88d099ad669d4b5914bb8ed3984fb7de13ef
 
 PODFILE CHECKSUM: 5a6870ff018bf6eee47f1b62c47754847eba6085
 

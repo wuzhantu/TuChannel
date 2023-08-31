@@ -7,7 +7,15 @@
 
 import UIKit
 
-public let kSafeBottomHeight: CGFloat = 34
+/// 是否是iPhoneX系列(刘海屏)
+var isiPhoneXMore: Bool {
+    if #available(iOS 11.0, *) {
+        return UIApplication.shared.delegate?.window??.safeAreaInsets.top ?? 0 > 20
+    }
+    return false
+}
+
+public let kSafeBottomHeight: CGFloat = isiPhoneXMore ? 34 : 0
 
 enum TuChannelClickType {
     case myChannel(index: Int)
