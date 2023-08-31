@@ -1,17 +1,8 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-post_install do |installer|
-    # 适配 xcode 14 编译打包， 去除BITCODE、跳过pod 签名
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'
-        end
-    end
-end
-
 #use_frameworks!
 
-platform :ios, '12.0'
+#platform :ios, '12.0'
 
 target 'TuChannel_Example' do
   pod 'TuChannel', :path => '../'

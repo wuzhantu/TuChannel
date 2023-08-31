@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TuChannel'
-  s.version          = '0.1.1'
-  s.summary          = '细节优化.'
+  s.version          = '0.1.2'
+  s.summary          = 'swift版本指定为5.0.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,6 +28,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/wuzhantu/TuChannel.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '5.0'
+  
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'TuChannel/Classes/**/*'

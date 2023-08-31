@@ -543,7 +543,7 @@ extension TuChannelEditView {
                 cell.isEdit = self.isEdit
             }
             
-            self.containerView.bringSubview(toFront: cell)
+            self.containerView.bringSubviewToFront(cell)
             
             UIView.animate(withDuration: 0.07, delay: 0, options: .curveEaseIn) {
                 let left = cell.leftOffset - 2
